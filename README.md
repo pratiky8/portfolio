@@ -1,88 +1,117 @@
-# Pratik Yadav — portfolio
+# 👋 Hi, I'm Pratik Yadav
 
-A responsive, recruiter-focused React + Vite portfolio. Lucide icons, CSS styling, inline SVG architecture diagrams, dark/light theme, filterable projects, skill categories and expandable project plans. No backend or credentials required.
+### AWS Cloud Enthusiast | DevOps Learner | Software Developer
 
-## Run locally
+I’m an aspiring technology professional interested in building modern web applications, exploring cloud infrastructure, and learning DevOps practices.
 
-Install Node.js 20.19+ or a supported newer LTS release, then in this directory:
+I work with **AWS, Docker, Linux, Networking, Java, Python, Django, React.js, and MySQL** to develop applications and strengthen my understanding of cloud computing and software engineering.
 
-```sh
-npm install
-npm run dev
-```
+🌐 **Portfolio:** [View My Portfolio](#) <!-- Replace # with your deployed portfolio URL -->
 
-Open the Local URL printed by Vite (normally http://localhost:5173). Stop with Ctrl+C.
+---
 
-## Production
+## 🚀 Technical Skills
 
-```sh
-npm run build
-npm run preview
-```
+### ☁️ Cloud Computing — AWS
 
-Open the printed preview URL (normally http://localhost:4173). The production output is in `dist/`.
+![AWS](https://img.shields.io/badge/AWS-Cloud%20Computing-FF9900?logo=amazonaws&logoColor=white)
+![EC2](https://img.shields.io/badge/Amazon-EC2-FF9900?logo=amazonec2&logoColor=white)
+![S3](https://img.shields.io/badge/Amazon-S3-569A31?logo=amazons3&logoColor=white)
+![VPC](https://img.shields.io/badge/Amazon-VPC-8C4FFF?logo=amazonaws&logoColor=white)
+![Lambda](https://img.shields.io/badge/AWS-Lambda-FF9900?logo=awslambda&logoColor=white)
 
-Deploy to a static host such as Netlify, Vercel or Cloudflare Pages: build command `npm run build`, output directory `dist`. No environment variables are needed. For hosting under a subdirectory, set Vite's `base` option to that subdirectory before building. Serve through HTTPS in production.
+- Amazon EC2, S3, VPC, EBS and Lambda
+- IAM, security groups and subnet fundamentals
+- Route tables, Internet Gateway and load balancing fundamentals
 
-## Personalize before sharing
+### ⚙️ DevOps, Systems & Networking
 
-Edit `src/data.js`:
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![Networking](https://img.shields.io/badge/Networking-TCP%2FIP-blue)
 
-- `profile.email`: configured as `pratiky0822@gmail.com`, used for working mailto links.
-- `profile.phone` and `profile.phoneDisplay`: configured as `+919450676821` and `+91 94506 76821`, used for telephone links.
-- `profile.github` and `profile.linkedin`: configured with your supplied profile URLs; external links open in new tabs with `noopener noreferrer`.
-- `projects[].repo`: real full repository URLs once available.
-- Place your actual PDF at `public/Pratik-Yadav-Resume.pdf`, then set `profile.resume` to `/Pratik-Yadav-Resume.pdf`. Verify the PDF downloads. A fake PDF is intentionally not included; until configured, resume controls clearly show a coming-soon placeholder.
+- Docker and containerization fundamentals
+- Linux commands and system troubleshooting
+- DNS, DHCP, NAT, TCP/IP, CIDR and subnetting
+- Git, GitHub and Nginx fundamentals
 
-Update the biography and project/lab statuses in `src/main.jsx` only when supported by your experience. All proposed projects and hands-on labs are currently marked Planned because no source code or completion evidence was supplied. Project plans describe goals, not accomplishments. Diagrams are conceptual; the VPC graphic shows subnet membership, not deployment evidence or a complete secure routing design. The Docker graphic summarizes request and data flow rather than an executable configuration.
+### 💻 Software Development
 
-The current React portfolio is implemented; the separately listed React application remains a project idea. No employment, certifications, metrics or GitHub activity are asserted. Missing social links render as labeled noninteractive placeholders. There is no contact form or fabricated submission success; adding an email enables a real mailto action using the visitor's mail application.
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 
-Set a canonical URL and `og:url` after choosing a domain; optionally add an actual social preview image and `og:image` in `index.html`. Review title and description there. Favicon: `public/favicon.svg`.
+- **Languages:** Java, Python, JavaScript, SQL
+- **Frontend:** React.js, HTML5, CSS3
+- **Backend:** Django, REST APIs
+- **Database:** MySQL
 
-## Structure
+---
 
-- `src/main.jsx`: reusable UI components and page sections.
-- `src/data.js`: profile, skill and project configuration.
-- `src/styles.css`: responsive styles, theme tokens and reduced-motion support.
-- `public/`: static assets and future resume PDF.
-- `index.html`: SEO metadata and application entry.
+## 🛠️ Featured Portfolio
 
-Google Fonts is optional: system sans-serif fallbacks are used if offline. The only runtime dependencies are React, React DOM and Lucide. Theme preference is stored locally when browser storage is available.
+### Personal Developer Portfolio
 
-## Cinematic presentation and motion
+A responsive personal portfolio designed to showcase my technical skills, project ideas, cloud architecture concepts, and professional profile.
 
-The hero combines oversized line-by-line type with a bespoke inline SVG cloud sculpture. The stable headline is separate from decorative rotating AWS CLOUD / DEVOPS / SOFTWARE text. A short scroll-linked movement scales and shifts the cloud layers as the hero darkens; no scroll pinning or scroll hijacking is used. About text progressively brightens. Project cards have conceptual visual previews, viewport entrances and restrained interaction effects. The Contact section uses a blue/cyan gradient. A decorative marquee uses only supplied skills.
+**Highlights**
+- Responsive and modern user interface
+- Interactive project cards and skill categories
+- Dark/light theme support
+- Cloud architecture illustrations
+- Accessibility and reduced-motion support
 
-CSS handles simple effects. The reusable useSceneMotion hook uses IntersectionObserver, the Web Animations API and a passive scroll listener throttled with requestAnimationFrame. Effects clean up observers, listeners, frame requests and running animations on unmount, on preference changes and on filter changes. React Strict Mode is enabled. Content is visible by default even if observer/animation setup fails. Reduced-motion settings disable decorative motion and smooth scrolling; all rotating labels and marquee skills become static. The hero's Pause motion control pauses ambient CSS effects and disables scroll/reveal motion. Mobile uses normal stacked composition without hero parallax or sticky About copy. No animation dependencies were added.
+**Technology Stack:** React.js, Vite, CSS, Lucide Icons
 
-### Portrait integration
+🔗 **Live Demo:** [Visit Portfolio](#) <!-- Add your deployed URL -->
+📂 **Source Code:** [View Repository](#) <!-- Add your GitHub repository URL -->
 
-The shared portrait path is /images/pratik-yadav.jpeg. Put the original JPEG at public/images/pratik-yadav.jpeg. That file was missing from the supplied workspace, so actual image loading and face framing cannot yet be verified. No placeholder photo, generated likeness or transparent cutout has been substituted.
+> Add screenshots and links to other projects after verifying that they are available and working. Label projects as planned or in progress when appropriate.
 
-Desktop now uses separate hero text and image columns. Mobile stacks them. The hero preserves the whole image with object-fit: contain and top alignment; the About reuse crops from the top with object-fit: cover. A subtle gradient mask and edge overlay blend the original rectangular image into a navy frame, with restrained cyan/blue lighting behind it. Explicit image dimensions and CSS aspect-ratio reserve space independently of loading. Those dimensions are layout reservations, not measured metadata of the missing file.
+---
 
-A gentle entrance and bounded scroll movement animate the hero frame. About uses the same URL for a closer crop and decorative, alt-empty echo, with scroll-linked opacity and transform changes. Mobile removes parallax and the echo; reduced-motion disables motion and shows the main photo at full opacity. Image failure renders the existing cloud illustration without broken image icons. The SVG artwork is in src/CloudSculpture.jsx; reusable image handling lives in src/Portrait.jsx and framing in src/portrait.css.
+## ☁️ Cloud & DevOps Learning
 
-No resume PDF was found; the clearly marked resume placeholder and conditional real-download support are preserved. Add the PDF and configure profile.resume as described above. Project plans and conceptual diagrams remain explicitly labeled. All contact information stays in src/data.js; the email links use mailto:pratiky0822@gmail.com and phone links use tel:+919450676821.
+Areas I am exploring through practical exercises:
 
-### Files for the redesign
+- Deploying web applications on Amazon EC2
+- Designing AWS VPC and subnet architectures
+- Configuring Nginx and testing load balancing
+- Building and running Docker containers
+- Practicing Linux administration and networking troubleshooting
 
-- src/Cinematic.jsx: hero, cloud SVG, marquee, project previews and readable About text.
-- src/useSceneMotion.js: scroll/viewport animation lifecycle.
-- src/cinematic.css: the new art direction, responsive layouts and motion overrides.
-- src/main.jsx: retained sections, navigation and reusable existing controls.
+---
 
-The redesign follows the written brief; screenshot attachments were not available in the conversation.
+## 🎓 Education
 
-### Verification
+**Bachelor of Technology (B.Tech) — Computer Science**
 
-Production build passed. Local headless Chrome checked 1440, 768, 390 and 320 pixel viewports with no document overflow or headline clipping. Interaction checks passed for the mobile menu, anchor navigation, project filters, expandable plans, theme toggle, conceptual diagram selection, motion pause, sticky header and keyboard focus. Reduced-motion checks passed both on initial load and after preference changes (zero running animations; smooth scrolling disabled). An unavailable-IntersectionObserver check confirmed content remains visible. No page runtime errors were reported. Temporary screenshots are in the ignored .qa/ directory.
+Chaudhary Charan Singh University, Meerut  
+Graduated: 2024
 
-### Portrait update verification
+---
 
-Production build and local preview checks are run after the portrait integration. The original JPEG is missing, so the actual portrait load remains unverified; the image-error fallback can be checked. Add the JPEG and review the real head/face framing on desktop and mobile before sharing.
+## 📈 Current Focus
 
-Portrait-layout verification passed in local Chrome at 1440, 900, 768, 390 and 320 pixel widths: both reserved image frames remain visible through cloud-art fallbacks, with no text/frame overlap, clipped headlines or horizontal overflow. Contact links were preserved. Reduced motion showed zero running animations and no hero transform. No JavaScript runtime errors were reported. The requested JPEG did not load: it is absent, and the development host returned HTML for that missing URL rather than an image. Actual portrait framing remains pending the original file.
-#   p o r t f o l i o  
- 
+- Strengthening AWS cloud infrastructure skills
+- Learning Docker and application deployment
+- Practicing Linux and computer networking
+- Building projects with Java, Python, Django and React.js
+
+---
+
+## 📫 Connect With Me
+
+📧 **Email:** [pratiky0822@gmail.com](mailto:pratiky0822@gmail.com)
+
+💼 **LinkedIn:** [Visit My LinkedIn](#) <!-- Replace # with your actual LinkedIn URL -->
+
+🐙 **GitHub:** [Explore My Repositories](#) <!-- Replace # with your actual GitHub profile URL -->
+
+---
+
+⭐ *Thanks for visiting my profile! I'm always interested in learning, building projects, and exploring new technologies.*
+
